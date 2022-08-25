@@ -14,7 +14,16 @@
 html {font-size: 13px;}
 
 body {
+   background-color: var(--grayish-blue);
    font-family: 'Manrope', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.acticle {
+   height: 200px;
 }
 
 /* Responsive */
