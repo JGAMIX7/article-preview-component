@@ -148,7 +148,6 @@ p {
 
 @media only screen and (min-width: 412px) {
    .card {
-      /* width: 300px; */
       width: 90%;
       flex-direction: column;
    }
@@ -166,14 +165,14 @@ p {
    }
 
    .card .right-side .article-title {
-      margin: 10px 0 10px;
+      margin: 10px 0 20px;
       font-size: 16px;
-      font-weight: 700;
+      /* font-weight: 700; */
    }
 
    .card .right-side .article-text {
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       font-size: 15px;
    }
 }
