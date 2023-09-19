@@ -148,21 +148,32 @@ p {
 
 @media only screen and (min-width: 412px) {
    .card {
-      width: 300px;
-      display: flex;
+      /* width: 300px; */
+      width: 90%;
       flex-direction: column;
    }
 
    .card .left-side {
       height: 230px;
       width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0;
    }
 
-   .card right-side {
+   .card .right-side {
       width: 100%;
    }
 
    .card .right-side .article-title {
-      padding: 0;
+      margin: 10px 0 10px;
+      font-size: 16px;
+      font-weight: 700;
+   }
+
+   .card .right-side .article-text {
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 15px;
    }
 }
